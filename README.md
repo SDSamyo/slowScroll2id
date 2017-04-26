@@ -5,5 +5,4 @@
   <a href="#link">Ссылка на элемент с id=link</a>
   <div id="link"></div>
 ```
-<br/>
 <p>Вставить в HTML документ после подключения jQuery slowScroll.js</p>
