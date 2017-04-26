@@ -11,3 +11,16 @@
   <a href="#link">Ссылка на элемент с id=link</a>
   <div id="link"></div>
 ```
+
+slowScroll.js
+
+ ```
+ $(function() {
+	$('a[href^="#"]').on('click', function(){
+		var el = $(this).attr('href');
+		$('html, body').animate({
+		scrollTop: $(el).offset().top}, 'slow');
+		return false;
+		});
+});
+ ```
